@@ -13,18 +13,21 @@ const config: Config = {
       white: "#FFF",
       navy: "#17253B",
       circles: "#8A8F9D",
+      black: "#000000",
     },
     fontSize: {
       sm: "0.875rem",
       lg: "1rem",
       xl: "1.5rem",
       "2xl": "1.875rem",
+      "4xl": "4.5rem",
       "5xl": "9.25rem",
     },
 
     extend: {
       letterSpacing: {
         logo: "0.25em",
+        heading: "0.35em",
       },
     },
   },
