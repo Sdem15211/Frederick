@@ -26,7 +26,7 @@ export const EmblaCarousel = ({ images }: { images: images }) => {
           {images.map((image, index) => (
             <div
               key={index}
-              className="w-[300px] h-[400px] relative shrink-0 flex items-end rounded-xl shadow-lg"
+              className="w-[300px] h-[400px] relative shrink-0 flex items-end rounded-xl shadow-lg embla__slide"
             >
               <Image
                 src={`/images/${image.url}`}

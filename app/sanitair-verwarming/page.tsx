@@ -1,4 +1,6 @@
+"use client";
 import { EmblaCarousel } from "@/components/ui/EmblaCarousel";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -47,16 +49,28 @@ const Home = () => {
             <span>+32 475 50 65 96</span>
           </div>
         </div>
-        <Link href={"/"}>
-          <div className="group">
-            <MdArrowBack className="size-6 mt-12 group-hover:-translate-x-2 duration-300 ease-out" />
-          </div>
-        </Link>
-        <h2 className="uppercase text-4xl tracking-heading mt-12 font-extralight">
-          Sanitair
-        </h2>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 100 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+        >
+          <Link href={"/"}>
+            <div className="group">
+              <MdArrowBack className="size-6 mt-12 group-hover:-translate-x-2 duration-300 ease-out" />
+            </div>
+          </Link>
+          <h2 className="uppercase text-4xl tracking-heading mt-12 font-extralight">
+            Sanitair
+          </h2>
+        </motion.div>
       </div>
-      <EmblaCarousel images={sanitair} />
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 100 }}
+        transition={{ duration: 2, ease: "easeOut", delay: 0.5 }}
+      >
+        <EmblaCarousel images={sanitair} />
+      </motion.div>
     </section>
   );
 };
