@@ -64,7 +64,7 @@ const Home = () => {
             </div>
           </Link>
           <h2 className="uppercase text-4xl tracking-heading mt-12 font-extralight">
-            Sanitair
+            Warmtepompen
           </h2>
         </motion.div>
       </Container>
@@ -84,7 +84,7 @@ const Home = () => {
           viewport={{ once: true }}
           className="uppercase text-4xl tracking-heading mt-56 font-extralight"
         >
-          Verwarming
+          Zonneboilers
         </motion.h2>
       </Container>
       <motion.div
@@ -96,20 +96,35 @@ const Home = () => {
         <EmblaCarousel images={verwarming} />
       </motion.div>
       <Container className="mt-56 mb-32">
-        <div className="flex gap-8">
+        <div className="flex gap-8 justify-center">
           <Idea />
-          <div className="flex flex-col gap-5">
-            <p className="text-lg">
-              Het onderhoud van uw cv-ketel is verplicht: om de twee jaar bij
-              een gasketel en jaarlijks bij een stookolieketel. Onze erkende
-              installateur staat klaar om dit voor u te verzorgen.
-            </p>
-            <div className="flex gap-6">
-              <span>Erkenningsnummers:</span>
-              <span>TV 12564</span>
-              <span>GV 12564</span>
-            </div>
-          </div>
+
+          <p className="text-lg">
+            Tip: mogelijke premies zijn te raadplegen op:{" "}
+            <Link
+              className="underline"
+              href={"https://www.premiezoeker.be"}
+              target="_blank"
+            >
+              www.premiezoeker.be
+            </Link>
+            ,{" "}
+            <Link
+              className="underline"
+              href={"https://www.energiesparen.be"}
+              target="_blank"
+            >
+              www.energiesparen.be
+            </Link>{" "}
+            en{" "}
+            <Link
+              className="underline"
+              href={"https://www.fluvius.be"}
+              target="_blank"
+            >
+              www.fluvius.be
+            </Link>
+          </p>
         </div>
       </Container>
       <div className="-z-10 absolute bg-circles/30 size-[46.875rem] rounded-full blur-[9rem] -left-[15.625rem] bottom-1/3" />

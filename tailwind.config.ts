@@ -14,6 +14,7 @@ const config: Config = {
       navy: "#17253B",
       circles: "#8A8F9D",
       black: "#000000",
+      transparent: "transparent",
     },
     fontSize: {
       sm: "0.875rem",

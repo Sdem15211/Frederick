@@ -6,13 +6,14 @@ import React from "react";
 import { MdOutlinePlumbing } from "react-icons/md";
 import { TbAirConditioning } from "react-icons/tb";
 import { cubicBezier, motion } from "framer-motion";
+import { Container } from "@/components/layout/Container";
 
 export const Landing = () => {
   const easing = cubicBezier(0.35, 0.17, 0.3, 0.86);
 
   return (
     <section>
-      <div className="lg:px-24 px-12 relative h-screen">
+      <Container className={`relative h-screen`}>
         <div className="flex justify-between items-center text-sm font-light mt-4 opacity-80">
           <motion.span
             initial={{ y: "-300%", opacity: 0 }}
@@ -77,7 +78,7 @@ export const Landing = () => {
             <MdOutlinePlumbing className="size-[30px] mr-2" />
             SANITAIR & VERWARMING
           </Fliplink>
-          <Fliplink href="/arico">
+          <Fliplink href="/airco">
             <TbAirConditioning className="size-[30px] mr-2" />
             <span className="text-xl">AIRCO</span>
           </Fliplink>
@@ -102,7 +103,7 @@ export const Landing = () => {
             className="object-cover"
           />
         </div>
-      </div>
+      </Container>
     </section>
   );
 };
