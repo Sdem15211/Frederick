@@ -12,7 +12,7 @@ export const Landing = () => {
 
   return (
     <section>
-      <div className="lg:px-24 px-12 relative">
+      <div className="lg:px-24 px-12 relative h-screen">
         <div className="flex justify-between items-center text-sm font-light mt-4 opacity-80">
           <motion.span
             initial={{ y: "-300%", opacity: 0 }}
@@ -94,7 +94,7 @@ export const Landing = () => {
             Contacteer ons
           </Link>
         </button>
-        <div className="size-[500px] absolute right-24 -bottom-10 opacity-50">
+        <div className="size-[500px] absolute right-24 bottom-20 opacity-50">
           <Image
             src={"/images/Logodark.png"}
             fill
