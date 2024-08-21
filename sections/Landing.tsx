@@ -16,50 +16,50 @@ export const Landing = () => {
       <Container className={`relative h-screen`}>
         <div className="flex justify-between items-center text-sm font-light mt-4 opacity-80">
           <motion.span
-            initial={{ y: "-300%", opacity: 0 }}
-            animate={{ y: 0, opacity: 0.8 }}
-            transition={{
-              delay: 1,
-              duration: 1.5,
-              type: "tween",
-              ease: "easeOut",
-            }}
+          // initial={{ y: "-300%", opacity: 0 }}
+          // animate={{ y: 0, opacity: 0.8 }}
+          // transition={{
+          //   delay: 1,
+          //   duration: 1.5,
+          //   type: "tween",
+          //   ease: "easeOut",
+          // }}
           >
             Klijtberg 66-68
           </motion.span>
           <motion.span
-            initial={{ y: "-300%", opacity: 0 }}
-            animate={{ y: 0, opacity: 0.8 }}
-            transition={{
-              delay: 1.2,
-              duration: 1.5,
-              type: "tween",
-              ease: "easeOut",
-            }}
+          // initial={{ y: "-300%", opacity: 0 }}
+          // animate={{ y: 0, opacity: 0.8 }}
+          // transition={{
+          //   delay: 1.2,
+          //   duration: 1.5,
+          //   type: "tween",
+          //   ease: "easeOut",
+          // }}
           >
             8570 Ingooigem
           </motion.span>
           <motion.span
-            initial={{ y: "-300%", opacity: 0 }}
-            animate={{ y: 0, opacity: 0.8 }}
-            transition={{
-              delay: 1.4,
-              duration: 1.5,
-              type: "tween",
-              ease: "easeOut",
-            }}
+          // initial={{ y: "-300%", opacity: 0 }}
+          // animate={{ y: 0, opacity: 0.8 }}
+          // transition={{
+          //   delay: 1.4,
+          //   duration: 1.5,
+          //   type: "tween",
+          //   ease: "easeOut",
+          // }}
           >
             info@frederickdesmet.be
           </motion.span>
           <motion.span
-            initial={{ y: "-300%", opacity: 0 }}
-            animate={{ y: 0, opacity: 0.8 }}
-            transition={{
-              delay: 1.6,
-              duration: 1.5,
-              type: "tween",
-              ease: "easeOut",
-            }}
+          // initial={{ y: "-300%", opacity: 0 }}
+          // animate={{ y: 0, opacity: 0.8 }}
+          // transition={{
+          //   delay: 1.6,
+          //   duration: 1.5,
+          //   type: "tween",
+          //   ease: "easeOut",
+          // }}
           >
             +32 475 50 65 96
           </motion.span>
