@@ -63,7 +63,7 @@ const Home = () => {
               <MdArrowBack className="size-6 mt-12 group-hover:-translate-x-2 duration-300 ease-out" />
             </div>
           </Link>
-          <h2 className="uppercase text-4xl tracking-heading mt-12 font-extralight">
+          <h2 className="uppercase text-2.5xl md:text-4xl tracking-heading mt-12 font-extralight">
             Sanitair
           </h2>
         </motion.div>
@@ -82,7 +82,7 @@ const Home = () => {
           whileInView={{ opacity: 100 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="uppercase text-4xl tracking-heading mt-56 font-extralight"
+          className="uppercase text-2.5xl md:text-4xl md:tracking-heading tracking-logo mt-56 font-extralight"
         >
           Verwarming
         </motion.h2>
@@ -96,7 +96,7 @@ const Home = () => {
         <EmblaCarousel images={verwarming} />
       </motion.div>
       <Container className="mt-56 mb-32">
-        <div className="flex gap-8">
+        <div className="flex flex-col md:flex-row gap-8">
           <Idea />
           <div className="flex flex-col gap-5">
             <p className="text-lg">
@@ -106,8 +106,10 @@ const Home = () => {
             </p>
             <div className="flex gap-6">
               <span>Erkenningsnummers:</span>
-              <span>TV 12564</span>
-              <span>GV 12564</span>
+              <div className="flex flex-col gap-2 md:flex-row">
+                <span>TV 12564</span>
+                <span>GV 12564</span>
+              </div>
             </div>
           </div>
         </div>

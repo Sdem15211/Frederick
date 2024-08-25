@@ -33,7 +33,7 @@ const page = () => {
               <MdArrowBack className="size-6 mt-12 group-hover:-translate-x-2 duration-300 ease-out" />
             </div>
           </Link>
-          <h2 className="uppercase text-4xl tracking-heading mt-12 font-extralight">
+          <h2 className="uppercase text-2.5xl md:text-4xl tracking-heading mt-12 font-extralight">
             Airco
           </h2>
         </motion.div>
