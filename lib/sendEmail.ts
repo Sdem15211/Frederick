@@ -1,7 +1,6 @@
 "use server";
 
 import { Resend } from "resend";
-import { validateString } from "./utils";
 import ContactFormEmail from "@/email/contact-form-email";
 import React from "react";
 
@@ -14,17 +13,6 @@ export const sendEmail = async (formData: FormData) => {
   const senderName = formData.get("name");
 
   if (!message || typeof message !== "string") {
-    return {
-      error: "invalid message",
-    };
-  }
-
-  if (!validateString(senderEmail, 500)) {
-    return {
-      error: "invalid sender email",
-    };
-  }
-  if (!validateString(message, 5000)) {
     return {
       error: "invalid message",
     };

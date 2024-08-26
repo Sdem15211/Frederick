@@ -63,7 +63,7 @@ const Home = () => {
               <MdArrowBack className="size-6 mt-12 group-hover:-translate-x-2 duration-300 ease-out" />
             </div>
           </Link>
-          <h2 className="uppercase text-2.5xl md:text-4xl tracking-widest md:tracking-heading mt-12 font-extralight">
+          <h2 className="uppercase text-2.5xl md:text-4xl tracking-widest md:tracking-tablet lg:tracking-heading mt-12 font-extralight">
             Warmtepompen
           </h2>
         </motion.div>
@@ -82,7 +82,7 @@ const Home = () => {
           whileInView={{ opacity: 100 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="uppercase text-2.5xl md:text-4xl tracking-widest md:tracking-heading mt-56 font-extralight"
+          className="uppercase text-2.5xl md:text-4xl tracking-widest md:tracking-tablet lg:tracking-heading mt-56 font-extralight"
         >
           Zonneboilers
         </motion.h2>

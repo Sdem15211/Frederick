@@ -31,6 +31,7 @@ const config: Config = {
 
     extend: {
       letterSpacing: {
+        tablet: "0.2em",
         logo: "0.25em",
         heading: "0.35em",
       },
