@@ -8,13 +8,14 @@ import { MdArrowBack } from "react-icons/md";
 
 const airco = [
   { url: "Airco1.jpg" },
-  { url: "sanitair1.jpg" },
-  { url: "sanitair2.jpg" },
-  { url: "sanitair3.JPG" },
-  { url: "sanitair4.JPG" },
-  { url: "sanitair5.jpg" },
-  { url: "sanitair6.jpg" },
-  { url: "sanitair7.jpg" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
 ];
 
 const page = () => {

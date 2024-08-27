@@ -9,42 +9,27 @@ import Link from "next/link";
 
 import { MdArrowBack } from "react-icons/md";
 
-const sanitair = [
-  { url: "sanitair1.jpg" },
-  { url: "sanitair2.jpg" },
-  { url: "sanitair3.JPG" },
-  { url: "sanitair4.JPG" },
-  { url: "sanitair5.jpg" },
-  { url: "sanitair6.jpg" },
-  { url: "sanitair7.jpg" },
-  { url: "sanitair8.jpg" },
-  { url: "sanitair9.jpg" },
-  { url: "sanitair10.jpg" },
-  { url: "sanitair12.JPG" },
-  { url: "sanitair13.JPG" },
-  { url: "sanitair14.JPG" },
-  { url: "sanitair15.jpg" },
-  { url: "sanitair16.jpg" },
-  { url: "sanitair17.jpg" },
-  { url: "sanitair18.jpg" },
-  { url: "sanitair19.jpg" },
+const zonneboilers = [
+  { url: "zonneboiler1.JPG" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
 ];
-const verwarming = [
-  { url: "verwarming13.jpg" },
-  { url: "verwarming2.jpg" },
-  { url: "verwarming3.jpg" },
-  { url: "verwarming4.jpg" },
-  { url: "verwarming5.jpg" },
-  { url: "verwarming6.jpg" },
-  { url: "verwarming7.jpg" },
-  { url: "verwarming8.jpg" },
-  { url: "verwarming9.jpg" },
-  { url: "verwarming10.jpg" },
-  { url: "verwarming11.JPG" },
-  { url: "verwarming12.jpg" },
-  { url: "verwarming1.jpg" },
-  { url: "verwarming14.jpg" },
-  { url: "verwarming15.jpg" },
+
+const warmtepompen = [
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
+  { url: "placeholder.png" },
 ];
 
 const Home = () => {
@@ -74,7 +59,7 @@ const Home = () => {
         transition={{ duration: 2, ease: "easeOut", delay: 0.5 }}
         viewport={{ once: true }}
       >
-        <EmblaCarousel images={sanitair} />
+        <EmblaCarousel images={warmtepompen} />
       </motion.div>
       <Container>
         <motion.h2
@@ -93,7 +78,7 @@ const Home = () => {
         transition={{ duration: 2, ease: "easeOut", delay: 0.5 }}
         viewport={{ once: true }}
       >
-        <EmblaCarousel images={verwarming} />
+        <EmblaCarousel images={zonneboilers} />
       </motion.div>
       <Container className="mt-56 mb-32">
         <div className="flex flex-col md:flex-row gap-8 justify-center">

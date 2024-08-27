@@ -28,12 +28,14 @@ const sanitair = [
   { url: "sanitair17.jpg" },
   { url: "sanitair18.jpg" },
   { url: "sanitair19.jpg" },
+  { url: "sanitair20.jpg" },
+  { url: "sanitair21.JPG" },
 ];
 const verwarming = [
   { url: "verwarming13.jpg" },
   { url: "verwarming2.jpg" },
   { url: "verwarming3.jpg" },
-  { url: "verwarming4.jpg" },
+  { url: "verwarming17.JPG" },
   { url: "verwarming5.jpg" },
   { url: "verwarming6.jpg" },
   { url: "verwarming7.jpg" },
@@ -45,6 +47,18 @@ const verwarming = [
   { url: "verwarming1.jpg" },
   { url: "verwarming14.jpg" },
   { url: "verwarming15.jpg" },
+  { url: "verwarming16.JPG" },
+  { url: "verwarming4.jpg" },
+  { url: "verwarming18.jpg" },
+  { url: "verwarming19.jpg" },
+  { url: "verwarming20.jpg" },
+  { url: "verwarming21.jpg" },
+  { url: "verwarming22.jpg" },
+  { url: "verwarming23.jpg" },
+  { url: "verwarming24.jpg" },
+  { url: "verwarming25.jpg" },
+  { url: "verwarming26.jpg" },
+  { url: "verwarming27.jpg" },
 ];
 
 const Home = () => {
