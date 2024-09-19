@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -20,10 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.className} bg-background text-white relative`}
-      >
+      <body className={`${poppins.className} bg-bg text-white relative`}>
         {children}
+        <Toaster />
       </body>
     </html>
   );
